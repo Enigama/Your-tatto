@@ -52,7 +52,10 @@ a:active {
 header {
   background: url("/img/bg1.png") no-repeat;
   background-size: cover;
-  min-height: 980px;
+}
+header .container {
+  width: 100%;
+  padding-bottom: 50px;
 }
 header .navbar-nav {
   float: none;
@@ -77,42 +80,39 @@ header .navbar-default .navbar-nav > li > a {
   padding-left: 30px;
   padding-right: 30px;
 }
-header .my_container {
-  margin-top: 190px;
-}
-header .my_container .who {
+header .who {
   text-align: center;
 }
-header .my_container .who .info_header p {
+header .who .info_header p {
   font-family: "Regular";
   font-size: 18px;
   color: #fff;
 }
-header .my_container .who .info_header h1 {
+header .who .info_header h1 {
   color: #fff;
   font-family: "GeorgiaBold";
   font-size: 60px;
 }
-header .my_container .who .info_header .new_s {
+header .who .info_header .new_s {
   font-family: "GeorgiaBold";
   font-size: 33px;
   margin-bottom: 30px;
 }
-header .my_container .who .info_header span {
+header .who .info_header span {
   margin-top: 20px;
   color: #ebebeb;
   font-family: "Regular";
   font-size: 18px;
 }
-header .my_container .who .info_header span span1 {
+header .who .info_header span span1 {
   color: #b82026;
 }
-header .my_container .my_btn {
+header .my_btn {
   margin: 0 auto;
   text-align: center;
   margin-top: 50px;
 }
-header .my_container .my_btn .btn {
+header .my_btn .btn {
   text-align: center;
   padding: 15px 35px;
   background-color: red;
@@ -121,31 +121,300 @@ header .my_container .my_btn .btn {
           border-radius: 50px;
   outline: 0 !important;
 }
-header .my_container .arrow {
+header .arrow {
   margin: 0 auto;
   text-align: center;
   margin-top: 50px;
 }
 main {
-  background: #282828;
-}
-main .container {
-  min-width: 1200px;
-}
-main .container .abaut_me {
-  min-width: 1200px;
   background: #1b1b1b;
 }
+main .container {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+main .container .abaut_me {
+  width: 100%;
+  background: #1b1b1b;
+  padding-left: 0;
+  padding-right: 0;
+}
+main .container .abaut_me .row {
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+main .container .abaut_me .row .col-md-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 main .container .abaut_me .row .col-md-12 .col-md-6 {
+  padding-left: 50px;
   height: 723px;
-  width: 600px;
+  width: 50%;
 }
 main .container .abaut_me .row .col-md-12 .col-md-6 h1 {
   font-family: "GeorgiaBold";
   font-size: 45px;
+  color: #fff;
 }
-main .container .abaut_me .row .col-md-12 .bgimg {
+main .container .abaut_me .row .col-md-12 .col-md-6 p {
+  font-family: "Regular";
+  font-size: 18px;
+  width: 480px;
+  color: #f5f5f5;
+}
+main .container .abaut_me .row .col-md-12 .bgimg1 {
   background: url("/img/boy1.png") no-repeat;
+  background-size: cover;
   height: 723px;
-  width: 600px;
+  width: 50%;
+}
+main .container .abaut_me .row .col-md-12 .bgim2 {
+  background: url("/img/boy2.1.png") no-repeat;
+  background-size: cover;
+  height: 1100px;
+  width: 50%;
+}
+main .container .abaut_me .row .col-md-12 .my_advantages {
+  padding-top: 25px;
+  background: #fff;
+  min-height: 1100px;
+}
+main .container .abaut_me .row .col-md-12 .my_advantages h1 {
+  font-family: "GeorgiaBold";
+  font-size: 45px;
+  color: #000;
+}
+main .container .abaut_me .row .col-md-12 .my_advantages p {
+  width: 100%;
+  font-family: "Regular";
+  font-size: 18px;
+  color: #1b1b1b;
+}
+main .container .abaut_me .row .col-md-12 .my_advantages .small_table {
+  margin-top: 50px;
+  text-align: center;
+}
+main .container .abaut_me .row .col-md-12 .my_advantages .small_table .left_b {
+  display: inline-block;
+  margin-right: 180px;
+}
+main .container .abaut_me .row .col-md-12 .my_advantages .small_table .left_b span {
+  margin-top: 30px;
+  display: block;
+}
+main .container .abaut_me .row .col-md-12 .my_advantages .small_table .righ_b {
+  display: inline-block;
+}
+main .container .abaut_me .row .col-md-12 .my_advantages .small_table .righ_b span {
+  margin-top: 30px;
+  display: block;
+}
+main .container .abaut_me .row .col-md-12 .my_advantages .second {
+  margin-top: 50px;
+}
+main .container .abaut_me .row .col-md-12 .my_advantages .questions {
+  text-align: center;
+  margin-top: 150px;
+}
+main .container .abaut_me .row .col-md-12 .my_advantages .questions span {
+  display: block;
+  font-family: "Regular";
+  font-size: 24px;
+}
+main .container .abaut_me .row .col-md-12 .my_advantages .questions span span2 {
+  color: #b82026;
+}
+main .container .abaut_me .row .col-md-12 .my_advantages .questions .btn {
+  margin-top: 25px;
+  text-align: center;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  outline: 0 !important;
+}
+main .container .my_work {
+  height: 1013px;
+  width: 100%;
+}
+main .container .my_work .row {
+  width: 100%;
+  height: 1013px;
+  margin-left: 0;
+  margin-right: 0;
+}
+main .container .my_work .row .col-md-12 {
+  margin-top: 30px;
+  text-align: center;
+}
+main .container .my_work .row .col-md-12 h1 {
+  font-family: "GeorgiaBold";
+  font-size: 45px;
+  color: #fff;
+}
+main .container .my_work .row .col-md-12 span {
+  font-family: "Regular";
+  font-size: 18px;
+  color: #fff;
+}
+main .container .my_work .row .pictures_panel {
+  height: 825px;
+  padding-left: 0;
+  padding-right: 0;
+  background: url("/img/my_work.png") no-repeat;
+  background-position: center;
+  background-position-y: inherit;
+}
+main .container .feed_back {
+  width: 100%;
+  min-height: 540px;
+  background: #fff;
+}
+main .container .feed_back .row {
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+main .container .feed_back .row .col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+main .container .feed_back .row .col-md-12 .slide {
+  min-height: 540px;
+}
+main .container .feed_back .row .col-md-12 .slide .carousel-indicators li {
+  border-color: red;
+}
+main .container .feed_back .row .col-md-12 .slide .carousel-indicators .active {
+  background-color: red;
+}
+main .container .feed_back .row .col-md-12 .slide .carousel-inner .item {
+  margin: 0 auto;
+  text-align: center;
+  height: 500px;
+}
+main .container .feed_back .row .col-md-12 .slide .carousel-inner .item h1 {
+  margin-top: 75px;
+  font-family: "GeorgiaBold";
+  font-size: 45px;
+  color: #000;
+}
+main .container .feed_back .row .col-md-12 .slide .carousel-inner .item span {
+  font-family: "GeorgiaBold";
+  font-size: 24px;
+  color: #000;
+}
+main .container .feed_back .row .col-md-12 .slide .carousel-inner .item img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+main .container .feed_back .row .col-md-12 .slide .carousel-inner .item p {
+  margin-top: 30px;
+  font-family: "OpenSBold";
+  font-size: 18px;
+  color: #000;
+}
+main .container .feed_back .row .col-md-12 .slide .carousel-inner .item .tetx_fed_foot {
+  font-family: "Regular";
+  font-size: 18px;
+  color: #383838;
+}
+main .container .feed_back .row .col-md-12 .slide .carousel-control .glyphicon-chevron-left,
+main .container .feed_back .row .col-md-12 .slide .carousel-control .icon-prev {
+  color: #e40d18;
+}
+main .container .feed_back .row .col-md-12 .slide .carousel-control .glyphicon-chevron-right,
+main .container .feed_back .row .col-md-12 .slide .carousel-control .icon-prev {
+  color: #e40d18;
+}
+main .container .uncover_your_charisma {
+  width: 100%;
+  min-height: 635px;
+}
+main .container .uncover_your_charisma .row {
+  width: 100%;
+  min-height: 635px;
+  margin-left: 0;
+  margin-right: 0;
+}
+main .container .uncover_your_charisma .row .col-md-12 {
+  min-height: 635px;
+  margin-top: 45px;
+  text-align: center;
+  color: #fff;
+}
+main .container .uncover_your_charisma .row .col-md-12 h1 {
+  font-family: "GeorgiaBold";
+  font-size: 33px;
+}
+main .container .uncover_your_charisma .row .col-md-12 .info_gift {
+  margin-top: 45px;
+}
+main .container .uncover_your_charisma .row .col-md-12 .info_gift span {
+  font-family: "GeorgiaBold";
+  font-size: 24px;
+}
+main .container .uncover_your_charisma .row .col-md-12 p {
+  margin-top: 45px;
+  font-family: "Regular";
+  font-size: 18px;
+}
+main .container .uncover_your_charisma .row .col-md-12 form {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+main .container .uncover_your_charisma .row .col-md-12 form .form-control {
+  font-family: "OpenSItalic";
+  font-size: 18px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 45px;
+  background-color: #1b1b1b;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  -webkit-border-radius: 0px;
+          border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: none;
+  transition: none;
+}
+main .container .uncover_your_charisma .row .col-md-12 .vant_tatto {
+  margin-top: 50px;
+}
+main .container .uncover_your_charisma .row .col-md-12 .vant_tatto .btn {
+  width: 20%;
+  margin-top: 25px;
+  text-align: center;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  outline: 0 !important;
+}
+footer {
+  min-height: 25px;
+  text-align: center;
+}
+footer h1 {
+  font-family: "Regular";
+  font-size: 18px;
+}
+@media (max-width: 1078px) {
+  main .container .abaut_me .row .col-md-12 .my_advantages .questions {
+    margin-top: 120px;
+  }
+}
+@media (max-width: 1074px) {
+  main .container .abaut_me .row .col-md-12 .my_advantages .questions {
+    margin-top: 72px;
+  }
 }
