@@ -151,6 +151,7 @@ main .container .abaut_me .row .col-md-12 {
 }
 main .container .abaut_me .row .col-md-12 .col-md-6 {
   padding-left: 50px;
+  padding-right: 0;
   height: 723px;
   width: 50%;
 }
@@ -390,7 +391,7 @@ main .container .uncover_your_charisma .row .col-md-12 .vant_tatto {
   margin-top: 50px;
 }
 main .container .uncover_your_charisma .row .col-md-12 .vant_tatto .btn {
-  width: 20%;
+  width: 10%;
   margin-top: 25px;
   text-align: center;
   padding: 15px 35px;
@@ -408,6 +409,21 @@ footer h1 {
   font-family: "Regular";
   font-size: 18px;
 }
+@media (max-width: 1700px) {
+  main .container .uncover_your_charisma .row .col-md-12 .vant_tatto .btn {
+    width: 11%;
+  }
+}
+@media (max-width: 1440px) {
+  main .container .uncover_your_charisma .row .col-md-12 .vant_tatto .btn {
+    width: 13%;
+  }
+}
+@media (max-width: 1100px) {
+  main .container .uncover_your_charisma .row .col-md-12 .vant_tatto .btn {
+    width: 17%;
+  }
+}
 @media (max-width: 1078px) {
   main .container .abaut_me .row .col-md-12 .my_advantages .questions {
     margin-top: 120px;
@@ -416,5 +432,161 @@ footer h1 {
 @media (max-width: 1074px) {
   main .container .abaut_me .row .col-md-12 .my_advantages .questions {
     margin-top: 72px;
+  }
+}
+@media (max-width: 1050px) {
+  main .container .abaut_me .row .col-md-12 .col-md-6 {
+    padding-left: 25px;
+  }
+}
+@media (max-width: 1005px) {
+  main .container .abaut_me .row .col-md-12 .col-md-6 {
+    padding-left: 15px;
+  }
+}
+@media (max-width: 991px) {
+  main .container .abaut_me .row .col-md-12 .col-md-6 {
+    width: 100%;
+    text-align: center;
+  }
+  main .container .abaut_me .row .col-md-12 .col-md-6 p {
+    width: 50%;
+    margin: 0 auto;
+  }
+  main .container .uncover_your_charisma .row .col-md-12 .vant_tatto .btn {
+    width: 18%;
+  }
+}
+@media (max-width: 800px) {
+  main .container .uncover_your_charisma .row .col-md-12 .vant_tatto .btn {
+    width: 25%;
+  }
+}
+@media (max-width: 759px) {
+  main .container .abaut_me .row .col-md-12 .col-md-6 p {
+    width: 75%;
+  }
+  main .container .uncover_your_charisma .row .col-md-12 .vant_tatto .btn {
+    width: 30%;
+  }
+}
+@media (max-width: 703px) {
+  main .container .abaut_me .row .col-md-12 .my_advantages .questions {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 600px) {
+  main .container .uncover_your_charisma .row .col-md-12 form .form-control {
+    width: 70%;
+  }
+  main .container .uncover_your_charisma .row .col-md-12 .vant_tatto .btn {
+    width: 33%;
+  }
+}
+@media (max-width: 564pc) {
+  main .container .abaut_me .row .col-md-12 .col-md-6 {
+    background-position-x: center;
+  }
+}
+@media (max-width: 511px) {
+  main .container .abaut_me .row .col-md-12 .col-md-6 p {
+    width: auto;
+  }
+  main .container .abaut_me .row .col-md-12 .my_advantages .small_table .left_b {
+    margin-right: 120px;
+  }
+}
+@media (max-width: 450px) {
+  main .container .uncover_your_charisma .row .col-md-12 form .form-control {
+    width: 90%;
+  }
+  main .container .uncover_your_charisma .row .col-md-12 .vant_tatto .btn {
+    width: 45%;
+  }
+}
+@media (max-width: 447px) {
+  main .container .abaut_me .row .col-md-12 .my_advantages .small_table .left_b {
+    margin-right: 70px;
+  }
+  main .container .uncover_your_charisma .row .col-md-12 form {
+    margin-top: 50px;
+  }
+  main .container .uncover_your_charisma .row .col-md-12 form .form-control {
+    width: 90%;
+  }
+  main .container .uncover_your_charisma .row .col-md-12 .vant_tatto {
+    margin-top: 30px;
+  }
+  main .container .uncover_your_charisma .row .col-md-12 .vant_tatto .btn {
+    width: 40%;
+  }
+}
+@media (max-width: 413px) {
+  main .container .abaut_me .row .col-md-12 .my_advantages .questions {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 368px) {
+  main .container .abaut_me .row .col-md-12 .my_advantages h1 {
+    font-size: 35px;
+  }
+  main .container .abaut_me .row .col-md-12 .my_advantages p {
+    font-size: 17px;
+  }
+}
+@media (max-width: 320px) {
+  header .who .info_header h1 {
+    font-size: 45px;
+  }
+  header .who .info_header .new_s {
+    font-size: 20px;
+  }
+  header .who .info_header span {
+    font-size: 15px;
+  }
+  main .container .abaut_me .row .col-md-12 .col-md-6 h1 {
+    font-size: 45px;
+  }
+  main .container .abaut_me .row .col-md-12 .col-md-6 p {
+    font-size: 15px;
+  }
+  main .container .abaut_me .row .col-md-12 .my_advantages h1 {
+    font-size: 28px;
+  }
+  main .container .abaut_me .row .col-md-12 .my_advantages p {
+    font-size: 15px;
+  }
+  main .container .abaut_me .row .col-md-12 .my_advantages .questions {
+    margin-top: 72px;
+  }
+  main .container .abaut_me .row .col-md-12 .my_advantages .questions span {
+    font-size: 20px;
+  }
+  main .container .my_work .row .col-md-12 h1 {
+    font-size: 40px;
+  }
+  main .container .my_work .row .col-md-12 span {
+    font-size: 15px;
+  }
+  main .container .my_work .row .col-md-12 {
+    margin-top: 0px;
+  }
+  main .container .feed_back .row .col-md-12 .slide .carousel-inner .item h1 {
+    font-size: 40px;
+  }
+  main .container .feed_back .row .col-md-12 .slide .carousel-inner .item span {
+    font-size: 20px;
+  }
+  main .container .uncover_your_charisma .row .col-md-12 h1 {
+    font-size: 25px;
+  }
+  main .container .uncover_your_charisma .row .col-md-12 .info_gift span {
+    font-size: 16px;
+  }
+  main .container .uncover_your_charisma .row .col-md-12 form .form-control {
+    width: 100%;
+  }
+  main .container .uncover_your_charisma .row .col-md-12 .vant_tatto .btn {
+    width: 60%;
   }
 }
